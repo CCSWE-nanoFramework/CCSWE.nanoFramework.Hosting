@@ -26,6 +26,7 @@
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <PropertyGroup>
     <RunSettingsFilePath>$(MSBuildProjectDirectory)\nano.runsettings</RunSettingsFilePath>
+    <LangVersion>default</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DeviceHostBuilderTests.cs" />
