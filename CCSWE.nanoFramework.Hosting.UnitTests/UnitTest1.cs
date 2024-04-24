@@ -1,7 +1,7 @@
 using nanoFramework.TestFramework;
 using System;
 
-namespace template_nanoframework.UnitTests
+namespace CCSWE.nanoFramework.Hosting.UnitTests
 {
     [TestClass]
     public class Test1
@@ -12,3 +12,4 @@ namespace template_nanoframework.UnitTests
         }
     }
 }
+

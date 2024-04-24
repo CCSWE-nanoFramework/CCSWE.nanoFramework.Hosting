@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>template_nanoframework</id>
-    <title>template_nanoframework</title>
+    <id>CCSWE.nanoFramework.Hosting</id>
+    <title>CCSWE.nanoFramework.Hosting</title>
     <version>1.0</version>
     <!--<version>$version$</version>-->
     <authors>Cory Charlton</authors>
     <owners>Cory Charlton,CCSWE</owners>
     <license type="file">LICENSE.md</license>
-    <projectUrl>https://github.com/CoryCharlton/template_nanoframework</projectUrl>
+    <projectUrl>https://github.com/CoryCharlton/CCSWE.nanoFramework.Hosting</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <readme>README.md</readme>
     <developmentDependency>false</developmentDependency>
     <description>Enter description here.</description>
-    <repository type="git" url="https://github.com/CoryCharlton/template_nanoframework" commit="$commit$" />
+    <repository type="git" url="https://github.com/CoryCharlton/CCSWE.nanoFramework.Hosting" commit="$commit$" />
     <copyright>Copyright (c) Cory Charlton</copyright>
     <tags>nanoFramework C# csharp netmf netnf ccswe </tags>
     <dependencies>
@@ -22,7 +22,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="template_nanoframework\bin\Release\template_nanoframework.*" target="lib" />
+    <file src="CCSWE.nanoFramework.Hosting\bin\Release\CCSWE.nanoFramework.Hosting.*" target="lib" />
     <file src="LICENSE.md" target="" />
     <file src="README.md" target="" />
   </files>

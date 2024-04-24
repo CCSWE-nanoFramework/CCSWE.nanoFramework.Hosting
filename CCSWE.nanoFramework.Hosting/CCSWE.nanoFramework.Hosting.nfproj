@@ -12,10 +12,10 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <FileAlignment>512</FileAlignment>
-    <RootNamespace>template_nanoframework</RootNamespace>
-    <AssemblyName>template_nanoframework</AssemblyName>
+    <RootNamespace>CCSWE.nanoFramework.Hosting</RootNamespace>
+    <AssemblyName>CCSWE.nanoFramework.Hosting</AssemblyName>
     <Nullable>Enable</Nullable>
-    <DocumentationFile>bin\$(Configuration)\template_nanoframework.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\CCSWE.nanoFramework.Hosting.xml</DocumentationFile>
     <TargetFrameworkVersion>v1.0</TargetFrameworkVersion>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
