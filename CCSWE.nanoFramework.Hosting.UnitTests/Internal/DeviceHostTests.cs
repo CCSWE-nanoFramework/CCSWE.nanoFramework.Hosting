@@ -1,13 +1,12 @@
 ﻿using System;
-using CCSWE.nanoFramework.Hosting.Logging;
 using CCSWE.nanoFramework.Hosting.UnitTests.Mocks;
+using CCSWE.nanoFramework.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using nanoFramework.Hosting;
 using nanoFramework.TestFramework;
 
 // ReSharper disable ObjectCreationAsStatement
-
 namespace CCSWE.nanoFramework.Hosting.UnitTests.Internal
 {
     [TestClass]
@@ -38,6 +37,7 @@ namespace CCSWE.nanoFramework.Hosting.UnitTests.Internal
             sut.Start();
 
             Assert.IsNotNull(registeredService);
+            // TODO: Bug someone to publish the test framework changes :P
             Assert.IsTrue(registeredService.IsStarted);
             Assert.IsFalse(registeredService.IsStopped);
         }

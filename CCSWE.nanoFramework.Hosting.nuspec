@@ -12,7 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <readme>README.md</readme>
     <developmentDependency>false</developmentDependency>
-    <description>Microsoft.Extensions.Hosting utilities.</description>
+    <description>Hosting and startup infrastructures for applications.</description>
     <repository type="git" url="https://github.com/CoryCharlton/CCSWE.nanoFramework.Hosting" commit="$commit$" />
     <copyright>Copyright (c) Cory Charlton</copyright>
     <tags>nanoFramework C# csharp netmf netnf ccswe hosting</tags>
