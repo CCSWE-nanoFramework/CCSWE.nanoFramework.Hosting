@@ -28,12 +28,28 @@
     <RunSettingsFilePath>$(MSBuildProjectDirectory)\nano.runsettings</RunSettingsFilePath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="DeviceHostBuilderTests.cs" />
+    <Compile Include="Internal\DeviceHostTests.cs" />
+    <Compile Include="Mocks\MockHostedService.cs" />
+    <Compile Include="Mocks\MockHostedServiceA.cs" />
+    <Compile Include="Mocks\MockHostedServiceB.cs" />
+    <Compile Include="Mocks\MockServiceA.cs" />
+    <Compile Include="Mocks\MockServiceB.cs" />
+    <Compile Include="ServiceProviderExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib">
       <HintPath>..\packages\nanoFramework.CoreLibrary.1.15.5\lib\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="nanoFramework.DependencyInjection">
+      <HintPath>..\packages\nanoFramework.DependencyInjection.1.1.3\lib\nanoFramework.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="nanoFramework.Hosting">
+      <HintPath>..\packages\nanoFramework.Hosting.1.0.40\lib\nanoFramework.Hosting.dll</HintPath>
+    </Reference>
+    <Reference Include="nanoFramework.Logging">
+      <HintPath>..\packages\nanoFramework.Logging.1.1.94\lib\nanoFramework.Logging.dll</HintPath>
     </Reference>
     <Reference Include="nanoFramework.TestFramework">
       <HintPath>..\packages\nanoFramework.TestFramework.2.1.94\lib\nanoFramework.TestFramework.dll</HintPath>
