@@ -12,12 +12,13 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <readme>README.md</readme>
     <developmentDependency>false</developmentDependency>
-    <description>Microsoft.Extensions.Hosting utilities.</description>
+    <description>Hosting and startup infrastructures for applications.</description>
     <repository type="git" url="https://github.com/CoryCharlton/CCSWE.nanoFramework.Hosting" commit="$commit$" />
     <copyright>Copyright (c) Cory Charlton</copyright>
     <tags>nanoFramework C# csharp netmf netnf ccswe hosting</tags>
     <dependencies>
        <dependency id="CCSWE.nanoFramework.Core" version="0.2.31" />
+       <dependency id="CCSWE.nanoFramework.Logging" version="0.1.1" />
 	   <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
 	   <dependency id="nanoFramework.Hosting" version="1.0.40" />
 	   <dependency id="nanoFramework.Logging" version="1.1.94" />

@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using CCSWE.nanoFramework.Hosting.Logging;
+using CCSWE.nanoFramework.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using nanoFramework.Hosting;
 
