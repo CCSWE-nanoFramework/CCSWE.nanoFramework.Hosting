@@ -40,8 +40,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="CCSWE.nanoFramework.Logging">
-      <HintPath>..\packages\CCSWE.nanoFramework.Logging.0.1.4\lib\CCSWE.nanoFramework.Logging.dll</HintPath>
+    <Reference Include="CCSWE.nanoFramework.Logging, Version=0.1.5.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\CCSWE.nanoFramework.Logging.0.1.5\lib\CCSWE.nanoFramework.Logging.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>..\packages\nanoFramework.CoreLibrary.1.15.5\lib\mscorlib.dll</HintPath>
@@ -52,8 +53,9 @@
     <Reference Include="nanoFramework.Hosting">
       <HintPath>..\packages\nanoFramework.Hosting.1.0.40\lib\nanoFramework.Hosting.dll</HintPath>
     </Reference>
-    <Reference Include="nanoFramework.Logging">
-      <HintPath>..\packages\nanoFramework.Logging.1.1.94\lib\nanoFramework.Logging.dll</HintPath>
+    <Reference Include="nanoFramework.Logging, Version=1.1.96.0, Culture=neutral, PublicKeyToken=c07d481e9758c731">
+      <HintPath>..\packages\nanoFramework.Logging.1.1.96\lib\nanoFramework.Logging.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="nanoFramework.TestFramework">
       <HintPath>..\packages\nanoFramework.TestFramework.2.1.94\lib\nanoFramework.TestFramework.dll</HintPath>
