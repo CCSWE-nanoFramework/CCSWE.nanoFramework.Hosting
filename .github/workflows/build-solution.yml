@@ -1,11 +1,20 @@
-name: Pull Request
+name: Build
 
 on:
+  push:
+    branches: 
+    - master
+
   pull_request:
 
+defaults:
+  run:
+    shell: pwsh
+
 jobs:
-  pull_request_checks:
-    name: Checks
-    uses: CCSWE-nanoframework/actions-nanoframework/.github/workflows/pull-request-checks.yml@master
+  build-solution:
+    name: Solution
+    uses: CCSWE-nanoframework/actions-nanoframework/.github/workflows/build-solution.yml@master
+    secrets: inherit
     with:
       solution: 'CCSWE.nanoFramework.Hosting.sln'
