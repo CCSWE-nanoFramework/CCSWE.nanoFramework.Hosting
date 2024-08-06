@@ -30,8 +30,8 @@
     <Compile Include="ServiceProviderExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="CCSWE.nanoFramework.Core, Version=1.0.27.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\CCSWE.nanoFramework.Core.1.0.27\lib\CCSWE.nanoFramework.Core.dll</HintPath>
+    <Reference Include="CCSWE.nanoFramework.Core, Version=1.0.28.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\CCSWE.nanoFramework.Core.1.0.28\lib\CCSWE.nanoFramework.Core.dll</HintPath>
     </Reference>
     <Reference Include="CCSWE.nanoFramework.Logging, Version=0.1.24.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\CCSWE.nanoFramework.Logging.0.1.24\lib\CCSWE.nanoFramework.Logging.dll</HintPath>
