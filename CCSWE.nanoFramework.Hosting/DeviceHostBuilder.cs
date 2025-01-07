@@ -92,7 +92,6 @@ namespace CCSWE.nanoFramework.Hosting
                 configureServicesAction(_hostBuilderContext, services);
             }
 
-            // TODO: Should I check if it's already been registered?
             services.AddLogging();
 
             _appServices = services.BuildServiceProvider(_serviceProviderOptions);
