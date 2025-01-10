@@ -40,9 +40,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="CCSWE.nanoFramework.Logging, Version=0.1.50.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\CCSWE.nanoFramework.Logging.0.1.50\lib\CCSWE.nanoFramework.Logging.dll</HintPath>
-    </Reference>
+	<Reference Include="CCSWE.nanoFramework.Logging">
+	  <HintPath>..\packages\CCSWE.nanoFramework.Logging.0.1.51\lib\CCSWE.nanoFramework.Logging.dll</HintPath>
+	</Reference>
     <Reference Include="mscorlib">
       <HintPath>..\packages\nanoFramework.CoreLibrary.1.15.5\lib\mscorlib.dll</HintPath>
     </Reference>
